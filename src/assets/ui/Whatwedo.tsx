@@ -3,7 +3,7 @@ import React from "react";
 const Whatwedo = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center text-center">
+      <div className="flex flex-col items-center justify-center text-center container-wrapper">
         <div className="grid tablet:grid-cols-2">
           <div className="overflow-hidden text-left w-50 h-100">
             <p className="text-center">

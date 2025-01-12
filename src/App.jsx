@@ -8,6 +8,7 @@ import Whatwedo from "./assets/ui/Whatwedo";
 import Tabs from "./assets/ui/Tabs";
 import WhyCodeBoustine from "./assets/ui/WhyCodeBoustine";
 import LatestInsights from "./assets/ui/LatestInsights";
+import Footer from "./assets/ui/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <WhyCodeBoustine />
       <dl className="h-20"></dl>
       <LatestInsights />
+      <dl className="h-20"></dl>
+      <Footer/>
     </>
   );
 }
